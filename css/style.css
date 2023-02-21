@@ -1,16 +1,26 @@
 body {
   font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5em/26px;
 }
 
 h1 {
-  font-family: Helvetica;
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.2em/53px;
+  letter-spacing: -0.021em;
 }
 
 table {
-  
+  border-collapse: collapse;
 }
 
 td,
 th {
   border: 1px solid;
+}
+
+th {
 }
