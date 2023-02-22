@@ -23,7 +23,8 @@ em {
 }
 
 table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 5px;
 }
 
 td,
@@ -34,8 +35,13 @@ th {
 
 th {
   font-weight: bold;
+  background-color: lightsteelblue;
 }
 
-tr > th:first-child {
+.leftcolumn {
   text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #cccccc;
 }
