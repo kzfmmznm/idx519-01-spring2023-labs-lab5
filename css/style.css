@@ -22,9 +22,19 @@ em {
   font-style: italic;
 }
 
+sup {
+  font-size: 80%;
+  line-height: 0;
+  position: relative;
+  top: -0.1em;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 5px;
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 td,
@@ -44,4 +54,10 @@ th {
 
 tr:nth-child(odd) {
   background-color: #cccccc;
+}
+
+#most_impressive {
+  font-weight: bold;
+  font-size: 36px;
+  color: #4f3b21; /* Complementary color for lightsteelblue */
 }
