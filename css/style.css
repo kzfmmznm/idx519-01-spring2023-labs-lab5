@@ -29,8 +29,13 @@ table {
 td,
 th {
   padding: 10px;
+  text-align: center;
 }
 
 th {
   font-weight: bold;
+}
+
+tr > th:first-child {
+  text-align: left;
 }
